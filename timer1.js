@@ -1,5 +1,3 @@
-const { map } = require("../../w1/lotide");
-
 let args = (process.argv.slice(2)).map(i => Number(i));
 
 const timer = function(args) {
